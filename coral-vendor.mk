@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/lib64/vendor.google.wifi_ext-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext-V3-ndk.so
 
 PRODUCT_PACKAGES += \
-    MotionSenseBridgePrebuilt \
     PixelCameraServicesCoral \
     VZWAPNLib \
     uimremoteclient \
@@ -78,12 +77,10 @@ PRODUCT_PACKAGES += \
     DMService \
     DiagMon \
     EuiccGoogle \
-    GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleHEMIDELTA \
     HotwordEnrollmentXGoogleHEMIDELTA \
     OemDmTrigger \
-    SCONE \
     SprintDM \
     TetheringEntitlement \
     USCCDM \
@@ -98,7 +95,6 @@ PRODUCT_PACKAGES += \
     HbmSVManager \
     MyVerizonServices \
     OBDM_Permissions \
-    OsloFeedback \
     PixelNfc \
     RilConfigService \
     grilservice \
