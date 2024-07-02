@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/product/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/uimremoteclient.xml \
     vendor/google/coral/proprietary/product/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/uimremoteserver.xml \
     vendor/google/coral/proprietary/product/etc/sysconfig/allowlist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.android.omadm.service.xml \
-    vendor/google/coral/proprietary/product/etc/sysconfig/dreamliner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dreamliner.xml \
     vendor/google/coral/proprietary/product/etc/sysconfig/pixel_2019_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2019_exclusive.xml \
     vendor/google/coral/proprietary/product/lib/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmengine.so \
     vendor/google/coral/proprietary/product/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmjavaplugin.so \
@@ -72,7 +71,6 @@ PRODUCT_PACKAGES += \
     uimremoteserver \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
-    CarrierWifi \
     ConnMO \
     DCMO \
     DMService \
@@ -85,12 +83,10 @@ PRODUCT_PACKAGES += \
     SprintDM \
     TetheringEntitlement \
     USCCDM \
-    WfcActivation \
     QtiTelephonyService \
     atfwd \
     com.qualcomm.qti.services.secureui \
     uceShimService \
-    CarrierSetup \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     HbmSVManager \
